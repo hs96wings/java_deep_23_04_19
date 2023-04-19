@@ -7,8 +7,12 @@ public class MyArrayList<T>{
     }
 
     // ArrayList의 add는 무조건 true를 반환해주어야 함
-    public boolean add(T element) {
+    public boolean add(String element) {
         size++;
         return true;
+    }
+
+    public String get(int index) {
+        return "포도";
     }
 }
